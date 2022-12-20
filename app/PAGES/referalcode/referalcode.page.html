@@ -1,0 +1,52 @@
+
+  <body>
+
+    <div class="form" >
+      <div class="congratulations" *ngIf="reward!='0' || reward!=0 ">
+        Congratulations
+      </div>
+
+      <div class="congratulations" *ngIf="reward=='0' || reward==0 ">
+        Welcome
+      </div>
+
+      <div class="referal" *ngIf="reward!='0' || reward!=0 ">
+        You have won ₹500 as referral income
+      </div>
+
+      <div class="referal" *ngIf="reward=='0' || reward==0 ">
+        Refer to a friend and earn ₹500 when they join us
+      </div>
+
+
+      
+      <div class="referal">
+        your Points : {{reward}}
+      </div>
+    
+      <div>
+        <img class="image" src="../../../assets/icon/Group 69.png" alt="">
+      </div>
+
+      <div class="refer">Your referral code</div>
+
+      <div class="code">
+        <p class="maincode">{{code1}}</p>      
+
+      <div>
+        <button class="paragraph" (click)="share()">INVITE</button>
+      </div>
+     
+      
+    </div>
+            
+    </div>
+
+   
+  
+    </body>
+
+
+
+  
+

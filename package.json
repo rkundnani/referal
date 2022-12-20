@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@awesome-cordova-plugins/app-availability": "^6.1.0",
+    "cordova-plugin-appavailability": "^0.4.2"
+  }
+}

@@ -1,0 +1,46 @@
+
+  <body>
+
+    <div class="form" >
+
+      <div class="welcome">WELCOME</div>
+      <div class="referal">TO CHERRY REFERRAL APP</div>
+
+      <div class="EnterMobile">
+        Signup Now 
+      </div>
+    
+      <!-- <div>
+        <input class="mobile" type="text" id="myNumber" placeholder="Enter Email Address">
+        <button type="submit"><i class="search"></i></button>
+      </div> -->
+
+      <div class="search-container">
+  
+          <input type="text" [(ngModel)]="email" placeholder="Search EmailId" name="search EmailId">
+          
+      </div>
+
+      <div>
+        <button class="paragraph" (click)="postemail(email)">Check</button>
+      </div>
+
+      
+      <div>
+        <button class="paragraph" *ngIf="message==true" (click)="navigate()">Login</button>
+      </div>
+    
+      <div>
+        <button class="paragraph" *ngIf="message==false" (click)="navigate1()">Register</button>
+      </div>
+
+
+            
+    </div>
+  
+    </body>
+
+
+
+  
+

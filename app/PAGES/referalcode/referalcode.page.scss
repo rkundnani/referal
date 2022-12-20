@@ -1,0 +1,159 @@
+body{
+    -webkit-font-smoothing: antialiased;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    transform: translateZ(0);
+    text-rendering: optimizeLegibility;
+    overflow: hidden;
+    touch-action: manipulation;
+    -webkit-user-drag: none;
+    -ms-content-zooming: none;
+    word-wrap: break-word;
+    overscroll-behavior-y: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    background-color: #121212;
+  }
+  
+  .form{
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .EnterMobile{
+    font-size: 26px;
+    color: #DEDEDE;
+    margin-left: 71px;
+    margin-top: 78px;
+    font-family: Roboto;
+    font-weight: Bold;
+
+      
+  }
+  
+  .mobile{
+    text-align: center;
+    margin-top: 26px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 328px;
+    height: 58px;
+    background-color: #2C2C2C;
+    color: #DEDEDE;
+    font-family: Roboto;
+  }
+
+  .congratulations{
+    text-align: center;
+    margin-top: 39px;
+    font-size: 30px;
+    color: #DEDEDE;
+    font-family: Roboto;
+    height:35px;
+    
+  }
+
+  .referal{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    color: #DEDEDE;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    height: 21px;
+
+  }
+
+  .image{
+    margin-top:30.22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:233.6px;
+    height:224px;
+
+  }
+
+  .refer{
+    text-align: center;
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #DEDEDE;
+    align-items: center;
+    justify-content: center;
+    /* width: 233.6px; */
+    }
+
+.code{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #616163;
+    height: 56px;
+    width: 90%;
+    border-radius: 5px;
+    font-family: Roboto;
+
+
+    .maincode{
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        color: rgba(255, 255, 255, 0.6);
+        margin-left: 10px;
+        padding: 20px;
+        padding-bottom:5px;
+        
+    }    
+
+    
+}
+
+.paragraph{
+    margin-right: auto;
+    margin-top: 322.11px;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    display: block;
+    height: 58px;
+    width: 90%;
+    background-color: #27DEBF;
+    border-radius: 5PX;
+    color: #121212;
+    font-size: 15px;
+    font-family: Roboto;
+  }
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
